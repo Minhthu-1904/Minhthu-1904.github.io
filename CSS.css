@@ -1,5 +1,3 @@
-@charset "utf-8";
-/* CSS Document */
 /*!
  * Start Bootstrap - Landing Page v5.0.8 (https://startbootstrap.com/themes/landing-page)
  * Copyright 2013-2020 Start Bootstrap
@@ -13,15 +11,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 header.masthead {
 	position: relative;
-	background-color: #343a40;
-	background:url(bg-masthead.jpg)center;
+	background: url(115967060_1389679821222615_8597946013439282621_n.jpg)center;
 	background-size: cover;
 	padding-top: 8rem;
 	padding-bottom: 8rem
 }
 header.masthead .overlay {
 	position: absolute;
-	background-color: #212529;
 	height: 100%;
 	width: 100%;
 	top: 0;
@@ -42,7 +38,7 @@ header.masthead h1 {
 }
 }
 .showcase .showcase-text {
-	padding: 3rem
+	padding: 30rem
 }
 .showcase .showcase-img {
 	min-height: 30rem;
@@ -83,15 +79,13 @@ header.masthead h1 {
 }
 .call-to-action {
 	position: relative;
-	background-color: #343a40;
-	background: url(bg-masthead.jpg)no-repeat center center;
+	background:url(115967060_1389679821222615_8597946013439282621_n.jpg)center center;
 	background-size: cover;
 	padding-top: 7rem;
 	padding-bottom: 7rem
 }
 .call-to-action .overlay {
 	position: absolute;
-	background-color: #212529;
 	height: 100%;
 	width: 100%;
 	top: 0;
