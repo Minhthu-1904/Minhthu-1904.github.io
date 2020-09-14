@@ -1,0 +1,339 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url("../img/pexels-catherine-972325.jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.logo{
+	padding: 30px;
+	width: 250px;
+	height: auto;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 20;
+}
+.logo img{
+	width: 100px;
+}
+.sidebar{
+	width: 250px;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.6);
+	position: absolute;
+}
+.text-box{
+	transform: rotate(-90deg);
+	position: absolute;
+	top: 45%;
+	text-align: center;
+}
+.text-box h1{
+	font-size: 28px;
+	font-weight: 100;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.text-box h4{
+	margin: 7px 0 10px;
+}
+.line{
+	width: 80px;
+	height: 1px;
+	margin: auto;
+	background: #000;
+}
+.content{
+	color: #fff;
+	position: absolute;
+	right: 200px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.content h1{
+	margin: 10px 0 10px;
+	font-size: 115px;
+	font-family: "bigshot-one";
+}
+.content p{
+	margin: 10px 0 15px;
+}
+.btn a{
+   background-color: #fff;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+.btn img{
+	width: 30px;
+	margin-right: 15px;
+}
+#backVideo{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+
+@media(min-aspect-ratio: 16/9){
+	#backVideo{
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media(max-aspect-ratio: 16/9){
+	#backVideo{
+		width: auto;
+		height: 100%;
+	}
+}
+/*features*/
+.features{
+	padding: 100px 0;
+	background-color: grey;
+}
+.features h1{
+	text-align: center;
+	font-size: 50px;
+	padding-bottom: 50px;
+}
+.feature-img img{
+	width: 100%;
+}
+.price{
+	width: 50px;
+	height: 50px;
+	background: #ff5722;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 50%;
+	padding: 10px;
+	box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+	position: absolute;
+	left: 20px;
+	bottom: -25px;
+}
+.feature-img{
+	position: relative;
+}
+.rating{
+	padding: 3px;
+	float: right;
+	bottom: -1px;
+	right: 0;
+	position: absolute;
+}
+.features .fa{
+	font-size: 15px;
+	color: #ff5722;
+}
+.feature-details{
+	padding: 20px;
+	text-align: justify;
+}
+.feature-details h4{
+	font-weight: 600;
+	margin-top: 20px;
+}
+.feature-details .fa{
+	margin-right: 5px;
+}
+.feature-box{
+	box-shadow: 0 0 10px 1px rgb(66, 66, 66);
+}
+/*gallery*/
+.gallery{
+	padding: 100px 0;
+	background-image: url("../img/pexels-thaís-silva-3385234.jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.gallery img{
+	width: 100%;
+}
+.gallery h1{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	padding-bottom: 50px;
+}
+.gallery-box img {
+	width: 140%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.gallery-box img:hover{
+	transform: scale(1.1);
+}
+.gallery-box h4{
+	display: block;
+	color: #fff;
+	text-shadow: -3px 2px 2px #000;
+	font-weight: 500;
+	font-size: 50px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	right: 50%;
+	transform: translate(-50%,-50%);
+		
+}
+/*gallerygirl*/
+.gallerygirl{
+	padding: 100px 0;
+}
+.gallerygirl h1{
+	text-align: center;
+	font-size: 50px;
+	padding-bottom: 50px;
+}
+.gallerygirl h4{
+	text-align: center;
+	top: auto;
+}
+.gallerygirl img{
+	width: 100%;
+}
+.gallerygirl-img{
+	position: relative;
+}
+.gallerygirl{
+	padding: 100px 0;
+}
+.gallerygirl h1{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.gallerygirl-box{
+	box-shadow: 0 0 50px 5px rgb(232, 231, 231);	
+}
+/*gallerykids*/
+.gallerykids{
+	padding: 100px 0;
+	background-image: url("../img/pexels-freestocksorg-191034.png");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.gallerykids img{
+	width: 120%;
+}
+.gallerykids h1{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	padding-bottom: 50px;
+}
+.gallerykids-box img {
+	width: 120%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.gallerykids-box img {
+	width: 134%;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.gallerykids-box img:hover{
+		transform: scale(0.9);
+}
+/*Footer*/
+footer{
+	background-color: #000000;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.f-logo img{
+	padding-top: 25px;
+	width: 160px;
+	height:auto;
+	position: absolute;
+}
+.up-section ul, .dwn-section ul{
+	font-family: "bigshot-one";
+	margin: 0px;
+	padding: 0px 20px;
+}
+.up-section h1, .dwn-section h1{
+	color: white;
+	font-size: 20px;
+	font-family: "bigshot-one";
+}
+.up-section ul li a, .dwn-section ul li a{
+	font-size: 16px;
+	color: grey;
+}
+.up-section ul li p{
+	font-size: 14px;
+	color: grey;
+	line-height: 10px;
+}
+.up-section, .dwn-section{
+	display: flex;
+	justify-content: space-between;
+	padding: 3% 0px;
+	margin: 5px;
+	width: 80%;
+	flex-wrap: wrap;	
+}
+.social-icons a{
+	width: 35px;
+	height: 35px;
+	margin: 0px 5px;
+	background-color: #484846;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.social-icons{
+	display: flex;
+}
+.search input{
+	height: 35px;
+	width: 200px;
+	text-align: center;
+	border: none;
+	outline: none;
+}
+.social-icons i{
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.copyright{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	text-align: center;
+	font-size: 12px;
+	color: grey;
+}
+.up-section ul li a:hover,.dwn-section ul li a:hover{
+	color: gray;
+	transition: all ease 0.5s;
+}
+.social-icons a:hover i{
+	color: gray;
+}
